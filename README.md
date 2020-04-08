@@ -1,4 +1,6 @@
 # Project 1 -  Navigation
+
+## Introduction
 For this project, you will train an agent to navigate (and collect bananas!) in a large, square world.
 
 ![Bananaworld](images/bananaworld.gif)
