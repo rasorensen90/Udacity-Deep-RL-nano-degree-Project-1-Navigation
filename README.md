@@ -32,20 +32,21 @@ Then, place the file in the p1_navigation/ folder in the DRLND GitHub repository
 
 (For AWS) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux_NoVis.zip) to obtain the "headless" version of the environment. You will not be able to watch the agent without enabling a virtual screen, but you will be able to train the agent. (To watch the agent, you should follow the instructions to enable a virtual screen, and then download the environment for the Linux operating system above.)
 
-Then place the file in the DRLND GitHub repository, in the `<p1_navigation/>` folder, and then write the correct path in the argument for creating the environment under the notebook `<Navigation_solution.ipynb>`:
+Then place the file in the DRLND GitHub repository, in the `p1_navigation/` folder, and then write the correct path in the argument for creating the environment under the notebook `Navigation_solution.ipynb`:
 ```python
 env = UnityEnvironment(file_name="Banana_Windows_x86_64/Banana.exe")
 ```
 
 ## Description of files
-* `<dqn_agent.py>`: Implementation of the agent
-* `<model.py>`: Implementation of the Q-network
-* `<dqn.pth>`: Model weights for a pretrained DQN model
-* `<ddqn.pth>`: Model weights for a pretrained Double DQN model
-* `<Navigation.ipynb>`: Explore the unity environment
-* `<Navigation_solution.ipynb>`: A possible implementation of how to train an agent.
-* `<Navigation_Pixels.ipynb>`: An optional extra challenge (See describtion below)
+* `dqn_agent.py`: Implementation of the agent.
+* `model.py`: Implementation of the Q-network.
+* `dqn.pth`: Model weights for a pretrained DQN model.
+* `ddqn.pth`: Model weights for a pretrained Double DQN model.
+* `Navigation.ipynb`: Explore the unity environment.
+* `Navigation_solution.ipynb`: A possible implementation of how to train an agent.
+* `Enjoy_agent.ipynb`: A notebook allowing you to watch pretrained models.
+* `Navigation_Pixels.ipynb`: An optional extra challenge (See describtion below).
 
 ## Instructions 
-Run the `<Navigation_solution.ipynb>` to train your own agent. 
-Run the `<Enjoy_agent.ipynb>` to watch a trained agent. If watching your own agent, make sure that the setup is the same as when you trained the agent.
+Run the `Navigation_solution.ipynb` to train your own agent. 
+Run the `Enjoy_agent.ipynb` to watch a trained agent. If watching your own agent, make sure that the setup is the same as when you trained the agent.
