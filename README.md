@@ -36,3 +36,16 @@ Then place the file in the DRLND GitHub repository, in the p1_navigation/ folder
 ```python
 env = UnityEnvironment(file_name="Banana_Windows_x86_64/Banana.exe")
 ```
+
+## Description of files
+* dqn_agent.py: Implementation of the agent
+* model.py: Implementation of the Q-network
+* dqn.pth: Model weights for a pretrained DQN model
+* ddqn.pth: Model weights for a pretrained Double DQN model
+* Navigation.ipynb: Explore the unity environment
+* Navigation_solution.ipynb: A possible implementation of how to train an agent.
+* Navigation_Pixels.ipynb: An optional extra challenge (See describtion below)
+
+## Instructions 
+Run the <Navigation_solution.ipynb> to train your own agent. 
+Run the <Enjoy_agent.ipynb> to watch a trained agent. If watching your own agent, make sure that the setup is the same as when you trained the agent.
