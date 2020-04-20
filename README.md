@@ -41,7 +41,8 @@ env = UnityEnvironment(file_name="Banana_Windows_x86_64/Banana.exe")
 * `dqn_agent.py`: Implementation of the agent.
 * `model.py`: Implementation of the Q-network.
 * `dqn.pth`: Model weights for a pretrained DQN model.
-* `ddqn.pth`: Model weights for a pretrained Double DQN model.
+* `double_dqn.pth`: Model weights for a pretrained Double DQN model.
+* `dueling_dqn.pth`: Model weights for a pretrained Dueling DQN model.
 * `Navigation.ipynb`: Explore the unity environment.
 * `Navigation_solution.ipynb`: A possible implementation of how to train an agent.
 * `Enjoy_agent.ipynb`: A notebook allowing you to watch pretrained models.
