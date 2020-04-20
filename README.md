@@ -54,8 +54,13 @@ Run the `Enjoy_agent.ipynb` to watch a trained agent. If watching your own agent
 ## Results
 You can expect the resulting rewards from training the three different types of agents to look like the following:
 DQN:
+
 ![DQN](p1_navigation/images/dqn.png)
+
 Double DQN:
+
 ![Double DQN](p1_navigation/images/double_dqn.png)
+
 Dueling DQN:
+
 ![Dueling DQN](p1_navigation/images/dueling_dqn.png)
