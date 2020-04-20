@@ -50,3 +50,12 @@ env = UnityEnvironment(file_name="Banana_Windows_x86_64/Banana.exe")
 ## Instructions 
 Run the `Navigation_solution.ipynb` to train your own agent. 
 Run the `Enjoy_agent.ipynb` to watch a trained agent. If watching your own agent, make sure that the setup is the same as when you trained the agent.
+
+## Results
+You can expect the resulting rewards from training the three different types of agents to look like the following:
+DQN:
+![DQN](p1_navigation/images/dqn.png)
+Double DQN:
+![Double DQN](p1_navigation/images/double_dqn.png)
+Dueling DQN:
+![Dueling DQN](p1_navigation/images/dueling_dqn.png)
