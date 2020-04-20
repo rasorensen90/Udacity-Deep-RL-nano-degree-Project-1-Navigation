@@ -3,7 +3,7 @@
 ## Introduction
 For this project, you will train an agent to navigate (and collect bananas!) in a large, square world.
 
-![Bananaworld](p1_navigation/images/bananaworld.gif)
+![Bananaworld](images/bananaworld.gif)
 
 A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. Thus, the goal of your agent is to collect as many yellow bananas as possible while avoiding blue bananas.
 
@@ -57,12 +57,12 @@ You can expect the resulting rewards from training the three different types of 
 
 DQN:
 
-![DQN](p1_navigation/images/dqn.png)
+![DQN](images/dqn.png)
 
 Double DQN:
 
-![Double DQN](p1_navigation/images/double_dqn.png)
+![Double DQN](images/double_dqn.png)
 
 Dueling DQN:
 
-![Dueling DQN](p1_navigation/images/dueling_dqn.png)
+![Dueling DQN](images/dueling_dqn.png)
