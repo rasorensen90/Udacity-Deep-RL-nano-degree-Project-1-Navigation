@@ -49,10 +49,10 @@ class QNetwork(nn.Module):
             x = F.relu(self.fc1(state))
             x = F.relu(self.fc2(x))
             
-            x_advantage = self.fc_act1(x)
+            x_advantage = F.relu(self.fc_act1(x))
             x_advantage = self.fc_act2(x_advantage)
             
-            x_value = self.fc_val1(x)
+            x_value = F.relu(self.fc_val1(x))
             x_value = self.fc_val2(x_value)
             
             mean_advantage = x_advantage.mean(1).unsqueeze(1).expand_as(x_advantage)
