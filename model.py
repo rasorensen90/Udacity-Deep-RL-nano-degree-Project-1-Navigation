@@ -18,8 +18,8 @@ class QNetwork(nn.Module):
         self.seed = torch.manual_seed(seed)
         self.modeltype = modeltype
         
-        fc1_units=64
-        fc2_units=64
+        fc1_units=128
+        fc2_units=32
         
         if self.modeltype in ['dqn', 'double_dqn']:
             self.fc1 = nn.Linear(state_size, fc1_units)
