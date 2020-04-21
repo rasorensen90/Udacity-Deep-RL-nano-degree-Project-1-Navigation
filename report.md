@@ -54,11 +54,11 @@ And here is the result of running the algorithm:
 ## Hyper Parameters
 The same hyper parameters were used for all three implementations:
 
-Learning rate: 1e-4
-Mini batch size: 256
-Gamma: 0.95
-Epsilon start: 1.0
-Epsilon end: 0.01
-Epsilon decay rate: 0.995
-Tau : 1e-3
-Experience replay buffer size: 1e5
+* Learning rate: 1e-4
+* Mini batch size: 256
+* Gamma: 0.95
+* Epsilon start: 1.0
+* Epsilon end: 0.01
+* Epsilon decay rate: 0.995
+* Tau : 1e-3
+* Experience replay buffer size: 1e5
