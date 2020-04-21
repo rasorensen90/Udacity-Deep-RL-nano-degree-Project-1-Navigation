@@ -62,3 +62,8 @@ The same hyper parameters were used for all three implementations:
 * Epsilon decay rate: 0.995
 * Tau : 1e-3
 * Experience replay buffer size: 1e5
+
+## Ideas for future improvements
+* Add N-step predictions
+* Add Prioritized Experience Replay
+* Better exploration/exploitation policy
